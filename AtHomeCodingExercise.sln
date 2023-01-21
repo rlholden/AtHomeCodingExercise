@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtHomeCodingExerciseBaseCode", "AtHomeCodingExerciseBaseCode\AtHomeCodingExerciseBaseCode.csproj", "{06724386-066C-4662-AEB1-F86BA4AE62C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtHomeCodingExerciseProgram", "AtHomeCodingExerciseProgram\AtHomeCodingExerciseProgram.csproj", "{7203F284-5348-4260-8BF3-8C87C13CF8FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06724386-066C-4662-AEB1-F86BA4AE62C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06724386-066C-4662-AEB1-F86BA4AE62C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06724386-066C-4662-AEB1-F86BA4AE62C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06724386-066C-4662-AEB1-F86BA4AE62C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7203F284-5348-4260-8BF3-8C87C13CF8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7203F284-5348-4260-8BF3-8C87C13CF8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7203F284-5348-4260-8BF3-8C87C13CF8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7203F284-5348-4260-8BF3-8C87C13CF8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A918B671-D68E-49F5-BA66-9DA733B1C20E}
+	EndGlobalSection
+EndGlobal
