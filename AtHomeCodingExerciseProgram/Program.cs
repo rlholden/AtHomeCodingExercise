@@ -6,8 +6,8 @@ namespace TestProgram
     {
         static void Main()
         {
-            int[] list = { 1, 5, 2, 1, 10 };
-            for (int i = -10; i < 11; i++)
+            int[] list = { 1, 5, 2, 1, 10, 12, 25, 1, 18, 235, 5, -3};
+            for (int i = -10; i <= 11; i++)
             {
                 try
                 {
@@ -16,7 +16,7 @@ namespace TestProgram
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine($"\tCannot do string rotation {e.Message}");
+                    Console.WriteLine($"\tCannot do string rotation. {e.Message}");
                 }
             }
         }

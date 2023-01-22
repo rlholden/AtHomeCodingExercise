@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtHomeCodingExerciseBaseCod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtHomeCodingExerciseProgram", "AtHomeCodingExerciseProgram\AtHomeCodingExerciseProgram.csproj", "{7203F284-5348-4260-8BF3-8C87C13CF8FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtHomeCodingExerciseTest", "AtHomeCodingExerciseTest\AtHomeCodingExerciseTest.csproj", "{08ADC956-091F-4BA5-B7EE-28C5B2E01BDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7203F284-5348-4260-8BF3-8C87C13CF8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7203F284-5348-4260-8BF3-8C87C13CF8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7203F284-5348-4260-8BF3-8C87C13CF8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08ADC956-091F-4BA5-B7EE-28C5B2E01BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08ADC956-091F-4BA5-B7EE-28C5B2E01BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08ADC956-091F-4BA5-B7EE-28C5B2E01BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08ADC956-091F-4BA5-B7EE-28C5B2E01BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
