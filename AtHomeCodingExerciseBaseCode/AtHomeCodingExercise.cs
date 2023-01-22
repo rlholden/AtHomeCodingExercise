@@ -43,7 +43,7 @@ namespace AtHomeCodingExerciseBaseCode
             }
             if (rotationAmount > originalString.Length)
             {
-                throw new ArgumentException($"Rotation amount ({rotationAmount}) must be less than the string length ({originalString.Length}).");
+                throw new ArgumentException($"Rotation amount ({rotationAmount}) must be less than the string length ({originalString.Length})");
             }
             int amountToRotate = originalString.Length - rotationAmount;
             return originalString[amountToRotate..] + originalString[..amountToRotate];
