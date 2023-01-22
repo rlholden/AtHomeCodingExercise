@@ -12,6 +12,10 @@ namespace AtHomeCodingExerciseBaseCode
         /// <returns><see cref="AboveBelowResult"/> object containing the count of integers in the <paramref name="list"/> above or below the <paramref name="comparisonValue"/>.</returns>
         public static AboveBelowResult aboveBelow(IEnumerable<int> list, int comparisonValue)
         {
+            if (list == null)
+            {
+                throw new ArgumentNullException($"List ({nameof(list)}) must be non-null");
+            }
             return new()
             {
                 Above = list.Where(x => x > comparisonValue).Count(),
@@ -29,13 +33,17 @@ namespace AtHomeCodingExerciseBaseCode
         /// <exception cref="ArgumentException"></exception>
         public static string stringRotation(string originalString, int rotationAmount)
         {
+            if (string.IsNullOrWhiteSpace(originalString))
+            {
+                throw new ArgumentNullException($"String {nameof(originalString)} must be non-null and have text.");
+            }
             if (rotationAmount < 0)
             {
-                throw new ArgumentException($"Rotation amount ({rotationAmount}) must be positive");
+                throw new ArgumentException($"Rotation amount ({rotationAmount}) must be positive.");
             }
             if (rotationAmount > originalString.Length)
             {
-                throw new ArgumentException($"Rotation amount ({rotationAmount}) must be less than the string length ({originalString.Length})");
+                throw new ArgumentException($"Rotation amount ({rotationAmount}) must be less than the string length ({originalString.Length}).");
             }
             int amountToRotate = originalString.Length - rotationAmount;
             return originalString[amountToRotate..] + originalString[..amountToRotate];
